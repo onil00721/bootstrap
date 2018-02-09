@@ -1,0 +1,14 @@
+body{
+    background: grey;
+   }
+.container {
+    border:1px solid black;
+    background: lightgreen;
+    height: 200px;
+    
+}
+    
+.col-4{
+    border: 1px solid black;
+    background: lightyellow;
+}
