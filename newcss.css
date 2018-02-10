@@ -1,10 +1,9 @@
 body{
     background: grey;
    }
-.container {
-    border:1px solid black;
-    background: lightgreen;
-    height: 200px;
+.cont {
+    margin: 0; 
+    margin-right: -100px;
     
 }
     
