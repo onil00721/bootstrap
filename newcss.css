@@ -1,24 +1,80 @@
 //kolor avon rgb(236,4,142)
-
-body{
+body {
     background: grey;
-   }
-.cont {
-    margin: 0; 
-    margin-right: -100px;
-    
 }
-    
-.col-4{
+
+.cont {
+    margin: 0;
+    margin-right: -100px;
+
+}
+
+.col-4 {
     border: 1px solid black;
     background: lightyellow;
 }
 
-.PhotoSize img{
-    width:100%;
-    height:300px;
+.PhotoSize img {
+    width: 100%;
+    height: 400px;
 }
 
-myClass{ 
+myClass {
     background: #000;
+}
+
+
+
+
+.okladka img {
+    width: 20vw;
+    height: 30vw;
+}
+
+
+
+.boxxx {
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+
+.newsletter img {
+    width: 100%;
+}
+
+.container p{
+    font-size: 14px;
+    text-align: center;
+}
+
+ .okladkaMargin {
+        margin: 50px 0;
+    }
+
+.jeden{
+    display: none;
+}
+
+.jeden:hover{
+    
+   background: #000;
+}
+.dwa{
+    diplay: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .okladka img {
+        width: 60vw;
+        height: 85vw;
+    }
+
+.newsletter img{
+   display:none;
+}
+
+
 }
