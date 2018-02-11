@@ -70,15 +70,17 @@ myClass {
 }
 
 
-#jejeje {
-   
-    background: violet;
-    transition: font-size 1s;
+.jejeje {
+    margin:10px 0;
+   padding: 20px;
+     background: lightgrey;
+    border-radius: 10px;    
     font-size: 2vw;
+     transition-timing-function: ease-in-out;
 }
 
 #jejeje {
-    transition-timing-function: ease-in-out;
+   
 }
 
 
@@ -90,7 +92,11 @@ myClass {
 }
 
 
-
+.dadada{
+   // display: none;
+    font-size: 0vw;
+    transition: font-size 1.3s;
+}
 
 
 
