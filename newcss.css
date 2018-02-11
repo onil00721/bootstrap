@@ -71,26 +71,23 @@ myClass {
 
 
 #jejeje {
-    width: 100px;
-    height: 100px;
+   
     background: violet;
-    transition: height 1s;
+    transition: font-size 1s;
+    font-size: 2vw;
 }
 
 #jejeje {
     transition-timing-function: ease-in-out;
 }
 
-#jejeje:hover {
-    hight: 300px;
-}
 
-#d {
-    width: 100px;
-    height: 100px;
-    background: green;
-}
 
+.rozwijanyTekst{
+    display: one;
+    font-size: 1.9vw;
+    
+}
 
 
 

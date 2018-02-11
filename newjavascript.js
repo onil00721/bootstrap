@@ -2,16 +2,18 @@
 
 
 
-$("#dw").mouseenter(function(){
+$("#jejeje").mouseenter(function(){
    
-    $("#jejeje").css({"height": '300px'});
+    $("#jejeje").css({"font-size": '3vw'});
+    
+    //$(".rozwijanyTekst").css({"display": "lock"});
    
     console.log("in");
 });
 
-$("#dw").mouseleave(function(){
+$("#jejeje").mouseleave(function(){
    
-    $("#jejeje").css({"height": '100px'});
+    $("#jejeje").css({"font-size": '1vw'});
     console.log("out");
 });
 
