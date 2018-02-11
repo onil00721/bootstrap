@@ -24,14 +24,10 @@ myClass {
 }
 
 
-
-
 .okladka img {
     width: 20vw;
     height: 30vw;
 }
-
-
 
 .boxxx {
     width: 100px;
@@ -53,10 +49,7 @@ myClass {
 }
 
 
-
-
 .jeden:hover {
-
     background: #000;
 }
 
@@ -69,35 +62,19 @@ myClass {
     border-radius: 10px;
 }
 
-
 .jejeje {
-    margin:10px 0;
-   padding: 20px;
-     background: lightgrey;
-    border-radius: 10px;    
+    margin: 10px 0;
+    padding: 20px;
+    background: lightgrey;
+    border-radius: 10px;
     font-size: 2vw;
-     transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 }
 
-#jejeje {
-   
-}
-
-
-
-.rozwijanyTekst{
-    display: one;
-    font-size: 1.9vw;
-    
-}
-
-
-.dadada{
-   // display: none;
+.dadada {
     font-size: 0vw;
     transition: font-size 1.3s;
 }
-
 
 
 @media only screen and (max-width: 767px) {
