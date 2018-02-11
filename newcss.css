@@ -43,38 +43,70 @@ myClass {
     width: 100%;
 }
 
-.container p{
+.container p {
     font-size: 14px;
     text-align: center;
 }
 
- .okladkaMargin {
-        margin: 50px 0;
-    }
+.okladkaMargin {
+    margin: 50px 0;
+}
 
-.jeden{
+
+
+
+.jeden:hover {
+
+    background: #000;
+}
+
+.dwa {
     display: none;
 }
 
-.jeden:hover{
-    
-   background: #000;
+.appearText {
+    background: lightgrey;
+    border-radius: 10px;
 }
-.dwa{
-    diplay: none;
+
+
+#jejeje {
+    width: 100px;
+    height: 100px;
+    background: violet;
+    transition: height 1s;
 }
+
+#jejeje {
+    transition-timing-function: ease-in-out;
+}
+
+#jejeje:hover {
+    hight: 300px;
+}
+
+#d {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 767px) {
-    
+
     .okladka img {
         width: 60vw;
         height: 85vw;
     }
 
-.newsletter img{
-   display:none;
-}
+    .newsletter img {
+        display: none;
+    }
 
 
 }
